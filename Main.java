@@ -18,7 +18,7 @@ class Store{
         this.workers += number;
     }
     public void fireWorker(int number){
-        this.workers += number;
+        this.workers -= number;
     }
     public void printOut(){
         System.out.println(name+"\n"+address+"\n"+workHours+" часов в день"+"\n"+workers);
